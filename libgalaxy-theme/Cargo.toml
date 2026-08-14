@@ -1,0 +1,11 @@
+[package]
+name = "libgalaxy-theme"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+description = "The Ubuntu Yaru design tokens for LibGalaxy: colors, spacing, typography and widget styles."
+
+[dependencies]
+serde = { workspace = true, features = ["derive"] }
