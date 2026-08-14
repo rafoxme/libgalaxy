@@ -1,0 +1,15 @@
+[package]
+name = "libgalaxy-config"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+description = "RON-based application configuration for LibGalaxy."
+
+[dependencies]
+libgalaxy-config-derive = { path = "../libgalaxy-config-derive" }
+serde = { workspace = true, features = ["derive"] }
+ron = { workspace = true }
+thiserror = { workspace = true }
+anyhow = { workspace = true }
