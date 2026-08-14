@@ -1,0 +1,17 @@
+[package]
+name = "libgalaxy"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+description.workspace = true
+
+[dependencies]
+gpui.workspace = true
+gpui_platform.workspace = true
+libgalaxy-theme = { path = "../libgalaxy-theme" }
+libgalaxy-config = { path = "../libgalaxy-config" }
+serde.workspace = true
+anyhow.workspace = true
+log.workspace = true
